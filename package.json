@@ -1,0 +1,19 @@
+{
+  "name": "eisenhoursback",
+  "version": "1.0.0",
+  "description": "An APIREST for eisenhower's matrix",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Benjamin Alcade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
